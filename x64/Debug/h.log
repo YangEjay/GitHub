@@ -1,5 +1,4 @@
 ﻿  h.c
 C:\Users\yange\Documents\team project\GitHub\h.c(58,10): warning C4566: 유니버설 문자 이름 '\uFEFF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
 C:\Users\yange\Documents\team project\GitHub\h.c(59,10): warning C4566: 유니버설 문자 이름 '\uFEFF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(64,2): error C2059: 구문 오류: '}'
-C:\Users\yange\Documents\team project\GitHub\h.c(69,1): fatal  error C1004: 예기치 않은 파일의 끝이 나타났습니다.
+  h.vcxproj -> C:\Users\yange\Documents\team project\GitHub\x64\Debug\h.exe
