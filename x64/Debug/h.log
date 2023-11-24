@@ -1,4 +1,45 @@
 ﻿  h.c
-C:\Users\yange\Documents\team project\GitHub\h.c(58,10): warning C4566: 유니버설 문자 이름 '\uFEFF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(59,10): warning C4566: 유니버설 문자 이름 '\uFEFF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
-  h.vcxproj -> C:\Users\yange\Documents\team project\GitHub\x64\Debug\h.exe
+C:\Users\yange\Documents\team project\GitHub\h.c(34,13): error C2065: 'Q1': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(34,24): error C2065: 'Q1': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(45,13): error C2065: 'Q2': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(45,24): error C2065: 'Q2': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(55,13): error C2065: 'Q3': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(55,24): error C2065: 'Q3': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(65,13): error C2065: 'Q4': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(65,24): error C2065: 'Q4': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(79,10): warning C4566: 유니버설 문자 이름 '\uFEFF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(80,10): warning C4566: 유니버설 문자 이름 '\uFEFF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(82,13): error C2065: 'Q6': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(82,24): error C2065: 'Q6': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(89,20): error C2065: 'Q1': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(89,25): error C2065: 'Q2': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(89,30): error C2065: 'Q3': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(89,35): error C2065: 'Q4': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(89,39): error C2065: 'Q6': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(108,14): error C2065: 'q_1': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(108,26): error C2065: 'q_1': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(118,14): error C2065: 'q_2': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(118,26): error C2065: 'q_2': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(128,14): error C2065: 'q_3': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(128,26): error C2065: 'q_3': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(139,14): error C2065: 'q_4': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(139,26): error C2065: 'q_4': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(150,14): error C2065: 'q_5': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(150,26): error C2065: 'q_5': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(160,14): error C2065: 'q_6': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(160,26): error C2065: 'q_6': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(171,14): error C2065: 'q_7': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(171,26): error C2065: 'q_7': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(181,14): error C2065: 'q_8': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(181,26): error C2065: 'q_8': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(191,14): error C2065: 'q_9': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(191,26): error C2065: 'q_9': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,22): error C2065: 'q_1': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,28): error C2065: 'q_2': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,34): error C2065: 'q_3': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,40): error C2065: 'q_4': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,46): error C2065: 'q_5': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,52): error C2065: 'q_6': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,58): error C2065: 'q_7': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,64): error C2065: 'q_8': 선언되지 않은 식별자입니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(198,69): error C2065: 'q_9': 선언되지 않은 식별자입니다.
