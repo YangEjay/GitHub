@@ -1,18 +1,16 @@
 ﻿  h.c
-C:\Users\yange\Documents\team project\GitHub\h.c(71,10): warning C4566: 유니버설 문자 이름 '\uFEFF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(72,10): warning C4566: 유니버설 문자 이름 '\uFEFF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
 C:\Users\yange\Documents\team project\GitHub\h.c(35): warning C4700: 초기화되지 않은 'Q1' 지역 변수를 사용했습니다.
 C:\Users\yange\Documents\team project\GitHub\h.c(45): warning C4700: 초기화되지 않은 'Q2' 지역 변수를 사용했습니다.
 C:\Users\yange\Documents\team project\GitHub\h.c(55): warning C4700: 초기화되지 않은 'Q3' 지역 변수를 사용했습니다.
 C:\Users\yange\Documents\team project\GitHub\h.c(65): warning C4700: 초기화되지 않은 'Q4' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(74): warning C4700: 초기화되지 않은 'Q5' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(100): warning C4700: 초기화되지 않은 'q_1' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(111): warning C4700: 초기화되지 않은 'q_2' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(121): warning C4700: 초기화되지 않은 'q_3' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(132): warning C4700: 초기화되지 않은 'q_4' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(142): warning C4700: 초기화되지 않은 'q_5' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(152): warning C4700: 초기화되지 않은 'q_6' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(163): warning C4700: 초기화되지 않은 'q_7' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(173): warning C4700: 초기화되지 않은 'q_8' 지역 변수를 사용했습니다.
-C:\Users\yange\Documents\team project\GitHub\h.c(183): warning C4700: 초기화되지 않은 'q_9' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(75): warning C4700: 초기화되지 않은 'Q5' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(101): warning C4700: 초기화되지 않은 'q_1' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(112): warning C4700: 초기화되지 않은 'q_2' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(122): warning C4700: 초기화되지 않은 'q_3' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(133): warning C4700: 초기화되지 않은 'q_4' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(143): warning C4700: 초기화되지 않은 'q_5' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(153): warning C4700: 초기화되지 않은 'q_6' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(164): warning C4700: 초기화되지 않은 'q_7' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(174): warning C4700: 초기화되지 않은 'q_8' 지역 변수를 사용했습니다.
+C:\Users\yange\Documents\team project\GitHub\h.c(184): warning C4700: 초기화되지 않은 'q_9' 지역 변수를 사용했습니다.
   h.vcxproj -> C:\Users\yange\Documents\team project\GitHub\x64\Debug\h.exe
