@@ -1,0 +1,133 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+    char tone[10] = "";
+    int Q1 = 0, Q2 = 0, Q3 = 0, Q4 = 0, Q5 = 0, Q6 = 0, Q7 = 0;
+    int Q_total = 0;
+
+    while (_stricmp(tone, "여름") != 0 && _stricmp(tone, "겨울") != 0) {
+        printf("당신의 계절은? 여름/겨울 : ");
+        scanf("%9s", tone);
+    }
+
+    int tone_ = (_stricmp(tone, "여름") == 0) ? 1 : 2;
+
+    switch (tone_) {
+    case 1: {
+        printf("\n계절은 여름 이시군요! 세부톤을 나누어 볼게요\n");
+        printf("나오는 질문들에 답해주세요.");
+
+        printf("\n\n1. 피부가 밝고 홍조 등 붉은 기가 많이 돈다.\n");
+        printf("or\n2. 피부가 중간톤이고 붉은 기가 많이 돌지 않는다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q1);
+        } while (Q1 != 1 && Q1 != 2);
+
+        printf("\n\n1. 크림색보다 흰색이 잘 어울린다.\n");
+        printf("or\n2. 흰색보다 크림색이 잘 어울린다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q2);
+        } while (Q2 != 1 && Q2 != 2);
+
+        printf("\n\n1. 생기 있는 이미지에 가깝다.\n");
+        printf("or\n2. 차분하고 부드러운 이미지에 가깝다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q3);
+        } while (Q3 != 1 && Q3 != 2);
+
+        printf("\n\n1. 내추럴하고 피부 본연의 광채를 살린 베이스 메이크업이 어울린다.\n");
+        printf("or\n2. 매트한 베이스 메이크업이 어울린다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q4);
+        } while (Q4 != 1 && Q4 != 2);
+
+        printf("\n\n1. 화이트톤의 의상이 어울린다.\n");
+        printf("or\n2. 톤 다운된 데님 의상이 어울린다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q5);
+        } while (Q5 != 1 && Q5 != 2);
+
+        printf("\n\n1. 실버 악세서리가 잘 어울린다.\n");
+        printf("or\n2. 로즈골드 악세서리가 잘 어울린다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q6);
+        } while (Q6 != 1 && Q6 != 2);
+
+        printf("\n\n1. 브라운 아이라이너가 잘 어울린다.\n");
+        printf("or\n2. 블랙 아이라이너가 잘 어울린다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q7);
+        } while (Q7 != 1 && Q7 != 2);
+
+        Q_total = Q1 + Q2 + Q3 + Q4 + Q5 + Q6 + Q7;
+
+        if (Q_total <= 7) {
+            printf("\n당신의 세부톤은 '라이트'입니다. \n");
+        }
+        else {
+            printf("\n당신의 세부톤은 '뮤트'입니다.\n");
+        }
+
+        break;
+    }
+    case 2: {
+        printf("\n계절은 겨울 이시군요! 세부톤을 나누어 볼게요\n");
+        printf("나오는 질문들에 답해주세요.");
+
+        printf("\n\n1. 피부색이 밝은 편이다.\n");
+        printf("or\n2. 피부색이 어둡거나 중간 톤이다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q1);
+        } while (Q1 != 1 && Q1 != 2);
+
+        printf("\n\n1. 마젠타, 보라색 계열 립이 잘 어울린다.\n");
+        printf("or\n2. 벽돌색, 어두운 고추장 색상 립이 잘 어울린다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q2);
+        } while (Q2 != 1 && Q2 != 2);
+
+        printf("\n\n1. 고채도의 색이 잘 어울린다.\n");
+        printf("or\n2. 저채도의 색이 잘 어울린다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q3);
+        } while (Q3 != 1 && Q3 != 2);
+
+        printf("\n\n1. 화려한 이미지에 가깝다.\n");
+        printf("or\n2. 성숙하고 카리스마 있는 이미지에 가깝다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q4);
+        } while (Q4 != 1 && Q4 != 2);
+
+        printf("\n\n1. 빳빳하고 무늬와 질감이 없는 소재, 패딩 소재, 스트라이프 디자인의 옷이 잘 어울린다.\n");
+        printf("or\n2. 볼드한 느낌을 주는 빳빳한 시스루, 에나멜, 실크, 스팽글, 벨벳 소재의 옷이 잘 어울린다.\n");
+        do {
+            printf("\n둘 중 해당하는 문항의 번호를 입력해주세요. : ");
+            scanf("%d", &Q5);
+        } while (Q5 != 1 && Q5 != 2);
+
+        Q_total = Q1 + Q2 + Q3 + Q4 + Q5;
+
+        if (Q_total <= 7) {
+            printf("\n당신의 세부톤은 '브라이트'입니다. \n");
+        }
+        else {
+            printf("\n당신의 세부톤은 '딥'입니다.\n");
+        }
+
+        break;
+    }
+    }
+    return 0;
+}
