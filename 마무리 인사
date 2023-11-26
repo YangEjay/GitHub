@@ -1,0 +1,80 @@
+#include <stdio.h>
+
+char result;
+
+printf("%s 님의 퍼스널 컬러는 %s입니다. \n", name, result);
+
+switch (result)
+{
+case (result==warm light spring):
+	printf("%s 님께 어울리는 색상은 다음과 같습니다. \n", name);
+	printf("색상을 언급 \n");
+	printf("%s 님께 어울리는 코디는 다음과 같습니다. \n", name);
+	printf("코디 정보를 좌르르르르륵 적기 \n");
+	printf("%s 님께 어울리는 메이크업 스타일은 다음과 같습니다. \n", name);
+	printf("메이크업 정보 좌르르르르륵 적기 \n");
+	break;
+
+case (result == warm bright spring):
+	printf("%s 님께 어울리는 색상은 다음과 같습니다. \n", name);
+	printf("색상을 언급 \n");
+	printf("%s 님께 어울리는 코디는 다음과 같습니다. \n", name);
+	printf("코디 정보를 좌르르르르륵 적기 \n");
+	printf("%s 님께 어울리는 메이크업 스타일은 다음과 같습니다. \n", name);
+	printf("메이크업 정보 좌르르르르륵 적기 \n");
+	break;
+
+case (result == cool light summer):
+	printf("%s 님께 어울리는 색상은 다음과 같습니다. \n", name);
+	printf("색상을 언급 \n");
+	printf("%s 님께 어울리는 코디는 다음과 같습니다. \n", name);
+	printf("코디 정보를 좌르르르르륵 적기 \n");
+	printf("%s 님께 어울리는 메이크업 스타일은 다음과 같습니다. \n", name);
+	printf("메이크업 정보 좌르르르르륵 적기 \n");
+	break;
+
+case (result == cool mute summer):
+	printf("%s 님께 어울리는 색상은 다음과 같습니다. \n", name);
+	printf("색상을 언급 \n");
+	printf("%s 님께 어울리는 코디는 다음과 같습니다. \n", name);
+	printf("코디 정보를 좌르르르르륵 적기 \n");
+	printf("%s 님께 어울리는 메이크업 스타일은 다음과 같습니다. \n", name);
+	printf("메이크업 정보 좌르르르르륵 적기 \n");
+	break;
+
+case (result == warm mute autumn):
+	printf("%s 님께 어울리는 색상은 다음과 같습니다. \n", name);
+	printf("색상을 언급 \n");
+	printf("%s 님께 어울리는 코디는 다음과 같습니다. \n", name);
+	printf("코디 정보를 좌르르르르륵 적기 \n");
+	printf("%s 님께 어울리는 메이크업 스타일은 다음과 같습니다. \n", name);
+	printf("메이크업 정보 좌르르르르륵 적기 \n");
+	break;
+
+case (result == warm deep autumn):
+	printf("%s 님께 어울리는 색상은 다음과 같습니다. \n", name);
+	printf("색상을 언급 \n");
+	printf("%s 님께 어울리는 코디는 다음과 같습니다. \n", name);
+	printf("코디 정보를 좌르르르르륵 적기 \n");
+	printf("%s 님께 어울리는 메이크업 스타일은 다음과 같습니다. \n", name);
+	printf("메이크업 정보 좌르르르르륵 적기 \n");
+	break;
+
+case (result == cool bright winter):
+	printf("%s 님께 어울리는 색상은 다음과 같습니다. \n", name);
+	printf("색상을 언급 \n");
+	printf("%s 님께 어울리는 코디는 다음과 같습니다. \n", name);
+	printf("코디 정보를 좌르르르르륵 적기 \n");
+	printf("%s 님께 어울리는 메이크업 스타일은 다음과 같습니다. \n", name);
+	printf("메이크업 정보 좌르르르르륵 적기 \n");
+	break;
+
+case (result == cool deep winter):
+	printf("%s 님께 어울리는 색상은 다음과 같습니다. \n", name);
+	printf("색상을 언급 \n");
+	printf("%s 님께 어울리는 코디는 다음과 같습니다. \n", name);
+	printf("코디 정보를 좌르르르르륵 적기 \n");
+	printf("%s 님께 어울리는 메이크업 스타일은 다음과 같습니다. \n", name);
+	printf("메이크업 정보 좌르르르르륵 적기 \n");
+	break;
+}
