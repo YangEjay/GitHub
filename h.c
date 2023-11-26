@@ -10,7 +10,7 @@ int main()
 
     while (strcmp(tone, "웜") != 0 && strcmp(tone, "쿨") != 0)
     {
-        printf("당신의 톤은? 웜/쿨 : ");
+        printf("%s 님의 톤을 입력해주세요! (웜/쿨) : ", name);
         scanf("%9s", &tone);
     }
 
@@ -27,7 +27,7 @@ int main()
     switch (tone_) {
     case 1:
     {
-        printf("\n당신은 웜 인 거 같아요! 이제 계절을 진단해볼까요?\n");
+        printf("\n %s 님은 웜 인 거 같아요! 이제 계절을 진단해볼까요?\n", name);
         printf("마찬가지로 나오는 질문들에 답해주세요.");
 
         printf("\n\n1. 자연 모발 색이 밝은 갈색이다.\n");
